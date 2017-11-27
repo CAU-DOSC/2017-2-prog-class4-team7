@@ -1,3 +1,4 @@
+#include "header.h"
 Link createNode(int value)
 {
 	Link cur;
