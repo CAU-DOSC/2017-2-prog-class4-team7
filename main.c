@@ -1,5 +1,4 @@
 #include "header.h"
-#include "library.c"
 int main()
 {
 	Link head = NULL;
