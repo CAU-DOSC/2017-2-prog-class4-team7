@@ -1,4 +1,4 @@
-# README file for TEAM[4,7]:
+﻿# README file for TEAM[4,7]:
 
 This text file describes brief but precise and complete specification of project including:
 - funtion descriptions: name, input/output parameters
@@ -8,6 +8,7 @@ This text file describes brief but precise and complete specification of project
 - - -
 Your description start form next line and do not delete lines upto this point.
 
+---------------------------------------------------------------------------------------------
 
 <프로그램 내용>
 * CTRL+z가 입력될 때까지 정수를 입력받는다.
@@ -18,6 +19,7 @@ Your description start form next line and do not delete lines upto this point.
 * main file: 박진선 - main file에는 메인 함수를 작성
 * README: 김태훈
 
+----------------------------------------------------------------------------------------------
 
 <사용자 지정 함수에 대한 설명> 
 
@@ -35,6 +37,7 @@ Your description start form next line and do not delete lines upto this point.
 3-3) 출력: (Link)head
 * 파일 이름: library.c
 
+--------------------------------------------------------------------------------------------------
 
 <헤더 파일에 대한 설명>
 
