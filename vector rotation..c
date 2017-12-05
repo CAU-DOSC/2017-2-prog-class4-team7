@@ -1,4 +1,4 @@
-
+#define_CRT_SECURE_NO_WARNINGS
 #include "header.h"
 #include <stdio.h>
 #include <stdlib.h>
@@ -28,17 +28,3 @@ char *trivial_rotation(int num, int d, char *ary, int length) {
 	return answer;
 }
 
-int main(void) {
-	int num = 0, d = 0, length = 0;
-	char ary[30] = { 0 };
-	char *ans = 0;
-	printf("Enter Input : ");
-	scanf("%d %d %s", &num, &d, ary);
-	while (ary[length])
-		length++;
-	ans = trivial_rotation(num, d, ary, length);
-	printf("answer : ");
-	puts(ans);
-	getch();
-	return 0;
-}
