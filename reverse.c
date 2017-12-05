@@ -1,4 +1,3 @@
-
 void reverse(char *arr, int strlen_start, int strlen_end)
 {
 	int re_num = (strlen_end - strlen_start) / 2;
