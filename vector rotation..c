@@ -1,4 +1,4 @@
-
+#define_CRT_SECURE_NO_WARNINGS
 #include "header.h"
 #include <stdio.h>
 #include <stdlib.h>
@@ -39,6 +39,6 @@ int main(void) {
 	ans = trivial_rotation(num, d, ary, length);
 	printf("answer : ");
 	puts(ans);
-	getch();
+	
 	return 0;
 }
