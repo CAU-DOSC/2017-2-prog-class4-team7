@@ -1,4 +1,4 @@
-#include "header.h"
+
 void reverse(char *arr, int strlen_start, int strlen_end)
 {
 	int re_num = (strlen_end - strlen_start) / 2;
@@ -16,18 +16,10 @@ void Rotate_reverse_pos(char *arr, int n, int d)
 	reverse(arr, 0, d - 1);
 	reverse(arr, d, n - 1);
 	reverse(arr, 0, n - 1);
-	printf("Rotated array_reverse: ");
-	for (int i = 0; i < n; i++)
-		printf("%c ", arr[i]);
-	printf("\n");
 }
 void Rotate_reverse_neg(char *arr, int n, int d)
 {
-	reverse(arr, n-d,n-1);
-	reverse(arr, 0, n-d-1);
+	reverse(arr, n - d, n - 1);
+	reverse(arr, 0, n - d - 1);
 	reverse(arr, 0, n - 1);
-	printf("Rotated array_reverse: ");
-	for (int i = 0; i < n; i++)
-		printf("%c ", arr[i]);
-	printf("\n");
 }

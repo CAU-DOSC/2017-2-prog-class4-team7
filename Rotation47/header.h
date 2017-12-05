@@ -1,6 +1,8 @@
 #pragma once
 #include <stdio.h>
 #include <time.h>
+#include <string.h>
+#include <stdlib.h>
 
 void Swap(char arr[], int a, int b, int d);
 void Block_Swap(char arr[], int n, int d);

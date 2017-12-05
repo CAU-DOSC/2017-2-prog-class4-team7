@@ -1,3 +1,4 @@
+
 void Swap(char arr[], int a, int b, int d)
 {
 	for (int i = 0; i < d; ++i)
@@ -10,10 +11,10 @@ void Swap(char arr[], int a, int b, int d)
 
 void Block_Swap(char arr[], int n, int d)
 {
-	int temp = 0, left_d = 0, temp_d = 0;
+	int tmp = 0, left_d = 0, temp_d = 0;
 	if (d == 0 || d == n)
 		return;
-	else if (d < 0)     
+	else if (d < 0)
 	{
 		left_d = -d;
 		int size1 = left_d;
@@ -33,7 +34,7 @@ void Block_Swap(char arr[], int n, int d)
 		}
 		Swap(arr, left_d - size1, left_d, size1);
 	}
-	else      
+	else
 	{
 		temp_d = (n - d);
 		int size1 = temp_d;

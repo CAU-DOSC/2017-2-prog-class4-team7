@@ -1,7 +1,7 @@
-#define MAX 1000
+
 
 void juggle(char line[], int n, int d) {
-	char temp[MAX];
+	char *temp = (char*)malloc((sizeof(char) * n) + 1);
 	int cnt_p = 0, cnt_n = 0;
 
 	if (d >= 0) {

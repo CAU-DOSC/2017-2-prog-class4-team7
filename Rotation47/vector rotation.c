@@ -1,8 +1,5 @@
-#include <stdio.h>
-#include <stdlib.h>
-
-char *trivial_rotation(int num, int d, char *ary, int length) {
-	static char answer[30] = { 0 };
+char trivial_rotation(int num, int d, char *ary, int length) {
+	char *answer = (char*)malloc((sizeof(char) * num) + 1);
 	char temp = 0;
 	for (int i = 0; i < 30; i++)
 		answer[i] = ary[i];
@@ -24,19 +21,4 @@ char *trivial_rotation(int num, int d, char *ary, int length) {
 		}
 	}
 	return answer;
-}
-
-int main(void) {
-	int num = 0, d = 0, length = 0;
-	char ary[30] = { 0 };
-	char *ans = 0;
-	printf("Enter Input : ");
-	scanf("%d %d %s", &num, &d, ary);
-	while (ary[length])
-		length++;
-	ans = trivial_rotation(num, d, ary, length);
-	printf("answer : ");
-	puts(ans);
-	getch();
-	return 0;
 }
